@@ -10,5 +10,6 @@ package Pruebas;
  * @author elabu
  */
 public class NewClass {
-    
+    public String Hola;
+    public int adios;
 }
