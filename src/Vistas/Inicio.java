@@ -180,14 +180,14 @@ public class Inicio extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel ErrorInicio;
-    private javax.swing.JButton InicioSesion;
-    private javax.swing.JTextField Usuario;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPasswordField jPasswordField1;
+    public javax.swing.JLabel ErrorInicio;
+    public javax.swing.JButton InicioSesion;
+    public javax.swing.JTextField Usuario;
+    public javax.swing.JButton jButton7;
+    public javax.swing.JLabel jLabel1;
+    public javax.swing.JLabel jLabel2;
+    public javax.swing.JLabel jLabel3;
+    public javax.swing.JPanel jPanel1;
+    public javax.swing.JPasswordField jPasswordField1;
     // End of variables declaration//GEN-END:variables
 }

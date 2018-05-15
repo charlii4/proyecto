@@ -336,23 +336,23 @@ public class JefeArea extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton38;
-    private javax.swing.JButton jButton39;
-    private javax.swing.JButton jButton45;
-    private javax.swing.JLabel jLabel27;
-    private javax.swing.JLabel jLabel28;
-    private javax.swing.JLabel jLabel38;
-    private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel16;
-    private javax.swing.JPanel jPanel17;
-    private javax.swing.JPanel jPanel18;
-    private javax.swing.JPanel jPanel21;
-    private javax.swing.JScrollPane jScrollPane11;
-    private javax.swing.JScrollPane jScrollPane12;
-    private javax.swing.JScrollPane jScrollPane13;
-    private javax.swing.JTabbedPane jTabbedPane3;
-    private javax.swing.JTable jTable10;
-    private javax.swing.JTable jTable11;
-    private javax.swing.JTable jTable9;
+    public javax.swing.JButton jButton38;
+    public javax.swing.JButton jButton39;
+    public javax.swing.JButton jButton45;
+    public javax.swing.JLabel jLabel27;
+    public javax.swing.JLabel jLabel28;
+    public javax.swing.JLabel jLabel38;
+    public javax.swing.JPanel jPanel10;
+    public javax.swing.JPanel jPanel16;
+    public javax.swing.JPanel jPanel17;
+    public javax.swing.JPanel jPanel18;
+    public javax.swing.JPanel jPanel21;
+    public javax.swing.JScrollPane jScrollPane11;
+    public javax.swing.JScrollPane jScrollPane12;
+    public javax.swing.JScrollPane jScrollPane13;
+    public javax.swing.JTabbedPane jTabbedPane3;
+    public javax.swing.JTable jTable10;
+    public javax.swing.JTable jTable11;
+    public javax.swing.JTable jTable9;
     // End of variables declaration//GEN-END:variables
 }

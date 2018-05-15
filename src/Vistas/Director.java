@@ -97,7 +97,7 @@ public class Director extends javax.swing.JFrame {
 
             },
             new String [] {
-                "NºSolicitud", "Codigo Centro", "Cantidad", "Fecha"
+                "NÂºSolicitud", "Codigo Centro", "Cantidad", "Fecha"
             }
         ) {
             Class[] types = new Class [] {
@@ -112,6 +112,12 @@ public class Director extends javax.swing.JFrame {
 
         jLabel23.setText("Nombre");
 
+        jTextField14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField14ActionPerformed(evt);
+            }
+        });
+
         jButton20.setText("Buscar");
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -124,17 +130,17 @@ public class Director extends javax.swing.JFrame {
         jButton22.setText("Eliminar");
 
         jLabel30.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jLabel30.setText("Añadir empleado");
+        jLabel30.setText("AÃ±adir empleado");
 
         jLabel34.setText("DNI");
 
         jRadioButton1.setText("Responsable");
 
-        jRadioButton2.setText("Jefe de Área");
+        jRadioButton2.setText("Jefe de Ã�rea");
 
         jRadioButton3.setText("Director");
 
-        jButton26.setText("Añadir");
+        jButton26.setText("AÃ±adir");
 
         jButton28.setBackground(new java.awt.Color(0, 0, 0));
         jButton28.setText("Logout");
@@ -151,12 +157,12 @@ public class Director extends javax.swing.JFrame {
 
             },
             new String [] {
-                "Código", "DNI", "Nombre", "Teléfono"
+                "CÃ³digo", "DNI", "Nombre", "TelÃ©fono"
             }
         ));
         jScrollPane14.setViewportView(jTable13);
 
-        jLabel8.setText("Teléfono");
+        jLabel8.setText("TelÃ©fono");
 
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
@@ -266,7 +272,7 @@ public class Director extends javax.swing.JFrame {
 
             },
             new String [] {
-                "NºSolicitud", "Codigo Centro", "Cantidad", "Fecha"
+                "NÂºSolicitud", "Codigo Centro", "Cantidad", "Fecha"
             }
         ) {
             Class[] types = new Class [] {
@@ -335,14 +341,14 @@ public class Director extends javax.swing.JFrame {
 
         jLabel37.setText("NIT");
 
-        jButton32.setText("Añadir");
+        jButton32.setText("AÃ±adir");
 
         jTable8.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
             new String [] {
-                "NºSolicitud", "Codigo Centro", "Cantidad", "Fecha"
+                "NÂºSolicitud", "Codigo Centro", "Cantidad", "Fecha"
             }
         ) {
             Class[] types = new Class [] {
@@ -465,7 +471,7 @@ public class Director extends javax.swing.JFrame {
 
             },
             new String [] {
-                "NºSolicitud", "Codigo Centro", "Cantidad", "Fecha"
+                "NÂºSolicitud", "Codigo Centro", "Cantidad", "Fecha"
             }
         ) {
             Class[] types = new Class [] {
@@ -509,7 +515,7 @@ public class Director extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane2.addTab("Órdenes", jPanel15);
+        jTabbedPane2.addTab("Ã“rdenes", jPanel15);
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -573,6 +579,10 @@ public class Director extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton23ActionPerformed
 
+    private void jTextField14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField14ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField14ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -609,54 +619,54 @@ public class Director extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton Autorizar;
-    private javax.swing.JButton AutorizarSolicitud;
-    private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton26;
-    private javax.swing.JButton jButton28;
-    private javax.swing.JButton jButton29;
-    private javax.swing.JButton jButton30;
-    private javax.swing.JButton jButton31;
-    private javax.swing.JButton jButton32;
-    private javax.swing.JButton jButton33;
-    private javax.swing.JFormattedTextField jFormattedTextField1;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel30;
-    private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel36;
-    private javax.swing.JLabel jLabel37;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JPanel jPanel11;
-    private javax.swing.JPanel jPanel12;
-    private javax.swing.JPanel jPanel14;
-    private javax.swing.JPanel jPanel15;
-    private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton3;
-    private javax.swing.JScrollPane jScrollPane10;
-    private javax.swing.JScrollPane jScrollPane14;
-    private javax.swing.JScrollPane jScrollPane15;
-    private javax.swing.JScrollPane jScrollPane6;
-    private javax.swing.JScrollPane jScrollPane9;
-    private javax.swing.JTabbedPane jTabbedPane2;
-    private javax.swing.JTable jTable13;
-    private javax.swing.JTable jTable14;
-    private javax.swing.JTable jTable3;
-    private javax.swing.JTable jTable7;
-    private javax.swing.JTable jTable8;
-    private javax.swing.JTextField jTextField14;
-    private javax.swing.JTextField jTextField21;
-    private javax.swing.JTextField jTextField22;
-    private javax.swing.JTextField jTextField23;
+    public javax.swing.JButton Autorizar;
+    public javax.swing.JButton AutorizarSolicitud;
+    public javax.swing.JButton jButton19;
+    public javax.swing.JButton jButton20;
+    public javax.swing.JButton jButton21;
+    public javax.swing.JButton jButton22;
+    public javax.swing.JButton jButton23;
+    public javax.swing.JButton jButton26;
+    public javax.swing.JButton jButton28;
+    public javax.swing.JButton jButton29;
+    public javax.swing.JButton jButton30;
+    public javax.swing.JButton jButton31;
+    public javax.swing.JButton jButton32;
+    public javax.swing.JButton jButton33;
+    public javax.swing.JFormattedTextField jFormattedTextField1;
+    public javax.swing.JLabel jLabel23;
+    public javax.swing.JLabel jLabel24;
+    public javax.swing.JLabel jLabel25;
+    public javax.swing.JLabel jLabel30;
+    public javax.swing.JLabel jLabel34;
+    public javax.swing.JLabel jLabel35;
+    public javax.swing.JLabel jLabel36;
+    public javax.swing.JLabel jLabel37;
+    public javax.swing.JLabel jLabel8;
+    public javax.swing.JPanel jPanel11;
+    public javax.swing.JPanel jPanel12;
+    public javax.swing.JPanel jPanel14;
+    public javax.swing.JPanel jPanel15;
+    public javax.swing.JPanel jPanel6;
+    public javax.swing.JPanel jPanel8;
+    public javax.swing.JPanel jPanel9;
+    public javax.swing.JRadioButton jRadioButton1;
+    public javax.swing.JRadioButton jRadioButton2;
+    public javax.swing.JRadioButton jRadioButton3;
+    public javax.swing.JScrollPane jScrollPane10;
+    public javax.swing.JScrollPane jScrollPane14;
+    public javax.swing.JScrollPane jScrollPane15;
+    public javax.swing.JScrollPane jScrollPane6;
+    public javax.swing.JScrollPane jScrollPane9;
+    public javax.swing.JTabbedPane jTabbedPane2;
+    public javax.swing.JTable jTable13;
+    public javax.swing.JTable jTable14;
+    public javax.swing.JTable jTable3;
+    public javax.swing.JTable jTable7;
+    public javax.swing.JTable jTable8;
+    public javax.swing.JTextField jTextField14;
+    public javax.swing.JTextField jTextField21;
+    public javax.swing.JTextField jTextField22;
+    public javax.swing.JTextField jTextField23;
     // End of variables declaration//GEN-END:variables
 }

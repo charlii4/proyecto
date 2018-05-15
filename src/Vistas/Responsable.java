@@ -102,14 +102,14 @@ public class Responsable extends javax.swing.JFrame {
 
         jLabel33.setText("Unidad de Medida");
 
-        jButton1.setText("Añadir");
+        jButton1.setText("AÃ±adir");
 
         jTable4.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
             new String [] {
-                "NºSolicitud", "Codigo Centro", "Cantidad", "Fecha"
+                "NÂºSolicitud", "Codigo Centro", "Cantidad", "Fecha"
             }
         ) {
             Class[] types = new Class [] {
@@ -232,11 +232,11 @@ public class Responsable extends javax.swing.JFrame {
 
         jLabel18.setBackground(new java.awt.Color(0, 0, 0));
         jLabel18.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jLabel18.setText("Ítem:");
+        jLabel18.setText("Ã�tem:");
 
         jLabel19.setBackground(new java.awt.Color(0, 0, 0));
         jLabel19.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
-        jLabel19.setText("Cantidad ítem:");
+        jLabel19.setText("Cantidad Ã­tem:");
 
         jButton15.setText("Crear");
 
@@ -244,14 +244,14 @@ public class Responsable extends javax.swing.JFrame {
         jLabel20.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         jLabel20.setText("Centro Costos:");
 
-        jButton16.setText("Añadir Item");
+        jButton16.setText("AÃ±adir Item");
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
             new String [] {
-                "NºSolicitud", "Codigo Centro", "Cantidad", "Fecha"
+                "NÂºSolicitud", "Codigo Centro", "Cantidad", "Fecha"
             }
         ) {
             Class[] types = new Class [] {
@@ -383,7 +383,7 @@ public class Responsable extends javax.swing.JFrame {
 
             },
             new String [] {
-                "NºSolicitud", "Codigo Centro", "Cantidad", "Fecha"
+                "NÂºSolicitud", "Codigo Centro", "Cantidad", "Fecha"
             }
         ) {
             Class[] types = new Class [] {
@@ -520,46 +520,46 @@ public class Responsable extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton24;
-    private javax.swing.JButton jButton25;
-    private javax.swing.JButton jButton27;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton34;
-    private javax.swing.JButton jButton35;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel29;
-    private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
-    private javax.swing.JPanel jPanel13;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel7;
-    private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JScrollPane jScrollPane7;
-    private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTable jTable2;
-    private javax.swing.JTable jTable4;
-    private javax.swing.JTable jTable6;
-    private javax.swing.JTextField jTextField10;
-    private javax.swing.JTextField jTextField11;
-    private javax.swing.JTextField jTextField12;
-    private javax.swing.JTextField jTextField18;
-    private javax.swing.JTextField jTextField19;
-    private javax.swing.JTextField jTextField20;
-    private javax.swing.JTextField jTextField9;
+    public javax.swing.JButton jButton1;
+    public javax.swing.JButton jButton15;
+    public javax.swing.JButton jButton16;
+    public javax.swing.JButton jButton17;
+    public javax.swing.JButton jButton2;
+    public javax.swing.JButton jButton24;
+    public javax.swing.JButton jButton25;
+    public javax.swing.JButton jButton27;
+    public javax.swing.JButton jButton3;
+    public javax.swing.JButton jButton34;
+    public javax.swing.JButton jButton35;
+    public javax.swing.JButton jButton4;
+    public javax.swing.JLabel jLabel16;
+    public javax.swing.JLabel jLabel17;
+    public javax.swing.JLabel jLabel18;
+    public javax.swing.JLabel jLabel19;
+    public javax.swing.JLabel jLabel20;
+    public javax.swing.JLabel jLabel21;
+    public javax.swing.JLabel jLabel29;
+    public javax.swing.JLabel jLabel31;
+    public javax.swing.JLabel jLabel32;
+    public javax.swing.JLabel jLabel33;
+    public javax.swing.JPanel jPanel13;
+    public javax.swing.JPanel jPanel2;
+    public javax.swing.JPanel jPanel4;
+    public javax.swing.JPanel jPanel5;
+    public javax.swing.JPanel jPanel7;
+    public javax.swing.JScrollPane jScrollPane3;
+    public javax.swing.JScrollPane jScrollPane4;
+    public javax.swing.JScrollPane jScrollPane7;
+    public javax.swing.JTabbedPane jTabbedPane1;
+    public javax.swing.JTable jTable2;
+    public javax.swing.JTable jTable4;
+    public javax.swing.JTable jTable6;
+    public javax.swing.JTextField jTextField10;
+    public javax.swing.JTextField jTextField11;
+    public javax.swing.JTextField jTextField12;
+    public javax.swing.JTextField jTextField18;
+    public javax.swing.JTextField jTextField19;
+    public javax.swing.JTextField jTextField20;
+    public javax.swing.JTextField jTextField9;
     // End of variables declaration//GEN-END:variables
 }
