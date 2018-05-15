@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="ProyectoPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Entidades.JefesArea</class>
+    <class>Entidades.Proveedores</class>
+    <class>Entidades.Directores</class>
+    <class>Entidades.Entradas</class>
+    <class>Entidades.Salidas</class>
+    <class>Entidades.Almacenes</class>
+    <class>Entidades.Bienes</class>
+    <class>Entidades.Solicitudes</class>
+    <class>Entidades.Facturas</class>
+    <class>Entidades.Responsables</class>
+    <class>Entidades.Ordenes</class>
+    <class>Entidades.Empleados</class>
+    <class>Entidades.Centros</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://79.148.236.236:3306/dam201_Emple?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="dam201"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="Damueco92"/>
+    </properties>
+  </persistence-unit>
+</persistence>
